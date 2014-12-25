@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="Pronama_chanIDE2013..cee1f103-13c1-4c5c-893e-2abc36a9de90" Version="1.1" Language="en-US" Publisher="jz5" />
+    <Identity Id="Pronama_chanIDE2013..cee1f103-13c1-4c5c-893e-2abc36a9de90" Version="1.1" Language="en-US" Publisher="" />
     <DisplayName>Pronama-chan IDE</DisplayName>
     <Description xml:space="preserve">Display mascot character Pronama-chan of Programming Live Program (pronama.jp) as the background of text editor.</Description>
     <MoreInfo>http://pronama.jp/?pronama-chan-ide</MoreInfo>
