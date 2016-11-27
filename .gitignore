@@ -154,3 +154,8 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
+/packages/Microsoft.VSSDK.BuildTools.15.0.25914-RC2
+/.vs
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+
