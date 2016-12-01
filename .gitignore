@@ -159,3 +159,4 @@ $RECYCLE.BIN/
 /.vs/VSWorkspaceState.json
 /.vs/slnx.sqlite
 
+/packages/Microsoft.VSSDK.BuildTools.14.3.25420

@@ -40,11 +40,11 @@ NotInheritable Class EditorAdornmentFactory
 
         Dim dte As DTE
         dte = CType(ServiceProvider.GetService(GetType(DTE)), DTE)
-        AddHandler dte.Events.BuildEvents.OnBuildProjConfigDone, AddressOf foo
+        AddHandler dte.Events.BuildEvents.OnBuildProjConfigDone, AddressOf Foo
 
     End Sub
 
-    Private Sub foo(ByVal Project As String, ByVal ProjectConfig As String, ByVal Platform As String, ByVal SolutionConfig As String, ByVal Success As Boolean)
+    Private Sub Foo(ByVal Project As String, ByVal ProjectConfig As String, ByVal Platform As String, ByVal SolutionConfig As String, ByVal Success As Boolean)
 
         If Me.TempPronama_chanIDE2013 IsNot Nothing Then
             TempPronama_chanIDE2013.Shell.ChangeFace(Success)
